@@ -9,37 +9,68 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
                 <Navbar backColor="#000000" navBackColor="#000000" />
                 <div className={style.back} id="home">
-                    <h1 className={style.hello}>Hello!</h1>
-                    <h2 className={style.nishant}>I'm Nishant full stack web developer.</h2>
+                    <h1>Hello!</h1>
+                    <h2>I'm Nishant full stack web developer.</h2>
                 </div>
 
                 <div className={style.project} id="project">
+                    <h1>Projects</h1>
                     <div className={style.card1}>
-                        <h1>Nishant</h1>
-                        <div class="card" style={{ width: "18rem" }}>
-                            <img class="card-img-top" src={img1} alt="" />
-                            <div class="card-body">
-                                <h5 class="card-title" style={{fontWeight:"bold"}}>Apmah</h5>
-                                <p class="card-text">Andoird social dating app allow you to connect with people world wide.
-                                It provides you messaging facility to chat with closer ones easily.</p>
-                                <a href="https://mega.nz/file/D9o3hAbb#hj3fHluV1qnZnDGU7gXw5l5nieh0GokUKL78pxuNgwU"
-                                target="_blank" rel="noopener noreferrer" className={style.btn}>To Application <HiArrowRight/></a>
+                        <div className={style.text1}>
+                            <h1>Apmah</h1>
+                            <p>Andoird social dating app allow you to <br />
+                        connect with people world wide. <br />
+                        It provides you messaging facility to <br />
+                        chat with closer ones easily.</p>
+                        </div>
+                        <div class={style.container}>
+                            <div class={style.card}>
+                                <div class={`${style.face} ${style.face1}`}>
+                                    <div class={style.content}>
+                                        <div className={style.icon}>
+                                            <img alt="" src={img1} />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class={`${style.face} ${style.face2}`}>
+                                    <div class={style.content}>
+                                        <h5>
+                                            <a href="https://www.linkedin.com/in/adamdipinto/" target="">Application <HiArrowRight /></a>
+                                        </h5>
+                                        <p>This is where I network and build my professional protfolio.</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div className={style.card1}>
-                        <div class="card" style={{ width: "18rem" }}>
-                            <img class="card-img-top" src={img2} alt="" />
-                            <div class="card-body">
-                                <h5 class="card-title" style={{fontWeight:"bold"}}>Stay-Fit</h5>
-                                <p class="card-text">This Webiste Helps You To Find Hospitals Near You And Fix Your Appointment Remotely.</p>
-                                <a href="https://stayfit-d84a1.web.app" target="_blank" rel="noopener noreferrer" className={style.btn}>To Website <HiArrowRight/></a>
+                    <div className={style.card2}>
+                        <div class={style.container}>
+                            <div class={style.card}>
+                                <div class={`${style.face} ${style.face1}`}>
+                                    <div class={style.content}>
+                                        <div class={style.icon}>
+                                            <img alt="" src={img2}></img>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class={`${style.face} ${style.face2}`}>
+                                    <div class={style.content}>
+                                        <h5>
+                                            <a href="https://www.linkedin.com/in/adamdipinto/" target="">Website <HiArrowRight /></a>
+                                        </h5>
+                                        <p>This is where I network and build my professional protfolio.</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <h1>Tomar</h1>
+                        <div className={style.text2}>
+                            <h1>Stay-Fit</h1>
+                            <p>This Webiste Helps You To Find Hospitals <br />
+                             Near You And Fix Your Appointment <br />
+                              Remotely.</p>
+                        </div>
                     </div>
                 </div>
                 <div className={style.about} id="about">
