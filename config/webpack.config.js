@@ -464,7 +464,7 @@ module.exports = function (webpackEnv) {
                 sourceMap: isEnvProduction
                   ? shouldUseSourceMap
                   : isEnvDevelopment,
-                  modules:true,
+                  modules:true
               }),
               // Don't consider CSS imports dead code even if the
               // containing package claims to have no side effects.
