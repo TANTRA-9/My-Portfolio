@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 *{
     scroll-behavior: smooth;
@@ -16,6 +18,7 @@
     background-size: cover;
     font-family: 'Montserrat', sans-serif;
     height: 100vh;
+    width: 100%;
 }
 
 .back h1{
@@ -38,10 +41,10 @@
 .project {
     background-color: #f1f1f1;
     height: 100%;
+    width: 100%;
 }
 
 .project h1{
-    padding-top: 20px;
     text-align: center;
     font-family: 'Orbitron', sans-serif;
     letter-spacing: 3px;
@@ -57,7 +60,7 @@
 }
 
 .text1{
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 .text1 p{
@@ -66,7 +69,7 @@
 }
 
 .text2{
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .text2 p{
@@ -82,22 +85,82 @@
     padding-bottom: 20px;
 }
 
-.btn{
-    background-color: rgb(10, 10, 10);
-    color: white;
-    padding: 10px;
-    border-radius: 20px;
+.skills{
+    width: 100%;
+    height: 130vh;
+    background-color: #262626;
 }
 
-.btn:hover{
-    color: white;
-    text-decoration: none;
-    background-color: rgb(32, 31, 31);
+.skillCenter{
+    width: 50%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    background: #333;
+    box-shadow: 0 20px 50px rgba(0,0,0,.5);
+    padding: 20px;
+}
+
+.skillCenter h1{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.skillBox{
+    box-sizing: border-box;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.skillBox p{
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.skillBox p:nth-child(2){
+    float: right;
+    position: relative;
+    margin-top: -25px;
+}
+
+.skillBar{
+    background-color: #262626;
+    padding: 4px;
 }
 
 .about{
-    background-color: lightcoral;
+    background-color: #f1f1f1;
     height: 100vh;
+    width: 100%;
+}
+
+.aboutBox{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding-top: 180px;
+}
+
+.aboutBox img{
+    height:300px;
+}
+
+.aboutBox div{
+    margin-left: 40px;
+}
+
+.aboutBox div p{
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container {
@@ -119,19 +182,6 @@
     background: #f00;
     transition: 0.7s;
 }
-
-.container .card:nth-child(1) .icon {
-    background: #e07768;
-}
-
-.container .card:nth-child(2) .icon {
-    background: #6eadd4;
-}
-
-.container .card:nth-child(3) .icon {
-    background: #4aada9;
-}
-
 
 .container .card .icon .fa {
     position: absolute;
@@ -202,7 +252,7 @@
 }
 
 .container .card .face.face2 .content h5 {
-    margin: 0 0 10px 0;
+    margin: -10px 0 10px 0;
     padding: 0;
     color: #fff;
     font-size: 17px;
@@ -211,15 +261,60 @@
     margin-bottom: 20px;
 } 
 
+.container .card .face.face2 .content a{
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.stick{
+    margin-top: 50px;
+}
+
+.github{
+    color: rgb(88, 88, 88);
+}
+
+.linked{
+    color: rgb(88, 88, 88);
+}
+
+.google{
+    color: rgb(88, 88, 88);
+}
+
+.hackerrank{
+    color: rgb(88, 88, 88);
+}
+
+.linked:hover{
+    color: #0e76a8;
+}
+
+.github:hover{
+    color: black;
+}
+
+.google:hover{
+    color: #e64340;
+}
+
+.hackerrank:hover{
+    color: #4ec967;
+}
+
 .container .card .face.face2 .content h5 a{
-    background-color: black;
-    color: white;
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
     padding: 10px 25px;
     border-radius: 20px;
 }
 
 .container .card .face.face2 .content h5 a:hover{
-    background-color: rgb(39, 38, 38);
+    background-color: black;
+    color: white;
 }
 
 .container a {
@@ -227,14 +322,76 @@
     color: #414141;
 }
 
-@media(max-width:430px){
+.contact{
+    width: 100%;
+    height: 100%;
+    background-color: #262626;
+}
+
+.contact h1{
+    padding-top: 30px;
+}
+
+.contactBox{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.contactBox div{
+    color: black;
+    padding: 5px 0 5px 10px;
+    background-color: rgb(238, 238, 238);
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin: 0 20px;
+}
+
+.contactBoxTag{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+@media(max-width:920px){
+    .contactBox div{
+        padding: 5px 0 5px 10px;
+        margin: 0 13px;
+    }
+}
+
+@media(max-width:839px){
+    .contact{
+        height: 100vh;
+    }
+    .contact h1{
+        padding-top: 80px;
+    }
+    .contactBox{
+        flex-direction: column;
+    }
+    .contactBox div{
+        margin: 13px 13px;
+    }
+}
+
+@media(max-width:500px){
     .card1{
-        display: inline-block;
-        margin: 0 8.5%;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
     }
     .card2{
-        display: inline-block;
-        margin:0 8.5%;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
     }
     .text1{
         margin-right: 0;
@@ -243,6 +400,36 @@
         margin-bottom: 10px;
     }
     .text2{
-        margin-right: 0;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:600px){
+    .aboutBox{
+        flex-direction: column;
+        padding-top: 60px;
+    }
+
+    .aboutBox img{
+        height: 220px;
+    }
+
+    .aboutBox div{
+        margin-left: 0;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width:900px){
+    .skillCenter{
+        width: 60%;
+    }
+}
+
+@media (max-width:550px){
+    .skillCenter{
+        width: 80%;
     }
 }
