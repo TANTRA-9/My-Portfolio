@@ -1,435 +1,479 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
-*{
-    scroll-behavior: smooth;
+* {
+  scroll-behavior: smooth;
 }
 
-*::-webkit-scrollbar{
-    display: none;
+*::-webkit-scrollbar {
+  display: none;
 }
 
-.back{
-    background-image: url('2.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: 'Montserrat', sans-serif;
-    height: 100vh;
-    width: 100%;
+.back {
+  background-image: url("2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  width: 100%;
 }
 
-.back h1{
-    padding-top: 500px;
-    text-align: center;
-    color: rgb(170, 170, 170);
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 2px;
+.back h1 {
+  padding-top: 500px;
+  text-align: center;
+  color: rgb(170, 170, 170);
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 2px;
 }
 
-.back h2{
-    text-align: center;
-    color: rgb(170, 170, 170);
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 1px;
-    margin-top: 10px;
+.back h2 {
+  text-align: center;
+  color: rgb(170, 170, 170);
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+  margin-top: 10px;
 }
-
 
 .project {
-    background-color: #f1f1f1;
-    height: 100%;
-    width: 100%;
+  background-color: #f1f1f1;
+  height: 100%;
+  width: 100%;
 }
 
-.project h1{
-    text-align: center;
-    font-family: 'Orbitron', sans-serif;
-    letter-spacing: 3px;
-    text-decoration: underline;
+.project h1 {
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  letter-spacing: 3px;
+  text-decoration: underline;
 }
 
-.card1{
-    padding-top: 20px;
-    display: flex;
-    justify-items: center;
-    justify-content: center;
-    align-items: center;
+.card1 {
+  padding-top: 20px;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
-.text1{
-    margin-right: 30px;
+.text1 {
+  margin-right: 30px;
 }
 
-.text1 p{
-    margin-top: 10px;
-    text-align: center;
+.text1 p {
+  margin-top: 10px;
+  text-align: center;
 }
 
-.text2{
-    margin-left: 30px;
+.text2 {
+  margin-left: 30px;
 }
 
-.text2 p{
-    margin-top: 10px;
-    text-align: center;
+.text2 p {
+  margin-top: 10px;
+  text-align: center;
 }
 
-.card2{
-    display: flex;
-    justify-items: center;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 20px;
+.card2 {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
 }
 
-.skills{
-    width: 100%;
-    height: 130vh;
-    background-color: #262626;
+.skills {
+  width: 100%;
+  height: 150vh;
+  background-color: #262626;
 }
 
-.skillCenter{
-    width: 50%;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    box-sizing: border-box;
-    background: #333;
-    box-shadow: 0 20px 50px rgba(0,0,0,.5);
-    padding: 20px;
+.skillCenter {
+  width: 50%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  background: #333;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+  padding: 20px;
 }
 
-.skillCenter h1{
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 25px;
-    margin-bottom: 30px;
-    text-align: center;
+.skillCenter h1 {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 25px;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
-.skillBox{
-    box-sizing: border-box;
-    width: 100%;
-    margin: 20px 0;
+.skillBox {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 20px 0;
 }
 
-.skillBox p{
-    color: #fff;
-    text-transform: uppercase;
-    margin: 0 0 10px;
-    font-weight: bold;
-    letter-spacing: 2px;
+.skillBox p {
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 
-.skillBox p:nth-child(2){
-    float: right;
-    position: relative;
-    margin-top: -25px;
+.skillBox p:nth-child(2) {
+  float: right;
+  position: relative;
+  margin-top: -25px;
 }
 
-.skillBar{
-    background-color: #262626;
-    padding: 4px;
+.skillBar {
+  background-color: #262626;
+  padding: 4px;
 }
 
-.about{
-    background-color: #f1f1f1;
-    height: 100vh;
-    width: 100%;
+.about {
+  background-color: #f1f1f1;
+  height: 100vh;
+  width: 100%;
 }
 
-.aboutBox{
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    padding-top: 180px;
+.aboutBox {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  padding-top: 170px;
 }
 
-.aboutBox img{
-    height:300px;
+.aboutBox img {
+  height: 300px;
 }
 
-.aboutBox div{
-    margin-left: 40px;
+.aboutBox div {
+  margin-left: 40px;
 }
 
-.aboutBox div p{
-    font-family: 'Open Sans', sans-serif;
+.aboutBox div p {
+  font-family: "Open Sans", sans-serif;
 }
 
 .container {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .container .card {
-    position: relative;
-    border-radius: 10px;
+  position: relative;
+  border-radius: 10px;
 }
 
 .container .card .icon {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #f00;
-    transition: 0.7s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(39, 39, 39);
+  transition: 0.7s;
 }
 
 .container .card .icon .fa {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 80px;
-    transition: 0.7s;
-    color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  transition: 0.7s;
+  color: #fff;
 }
 
 .container .card .face {
-    width: 300px;
-    height: 200px;
-    transition: 0.5s;
+  width: 300px;
+  height: 200px;
+  transition: 0.5s;
 }
 
 .container .card .face.face1 {
-    position: relative;
-    background: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-    transform: translateY(100px);
-    cursor: pointer;
+  position: relative;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+  cursor: pointer;
 }
 
-.container .card:hover .face.face1{
-    background: #ff0057;
-    transform: translateY(0px);
+.container .card:hover .face.face1 {
+  background: #292929;
+  transform: translateY(0px);
 }
 
 .container .card .face.face1 .content {
-    opacity: 1;
-    transition: 0.5s;
+  opacity: 1;
+  transition: 0.5s;
 }
 
 .container .card:hover .face.face1 .content {
-    opacity: 1;
+  opacity: 1;
 }
 
-.container .card .face.face1 .content i{
-    max-width: 100px;
+.container .card .face.face1 .content i {
+  max-width: 100px;
 }
 
 .container .card .face.face2 {
-    position: relative;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    box-sizing: border-box;
-    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
-    transform: translateY(-100px);
+  position: relative;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2),
+    0 20px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: translateY(-100px);
 }
 
-.container .card:hover .face.face2{
-    transform: translateY(0);
+.container .card:hover .face.face2 {
+  transform: translateY(0);
 }
 
 .container .card .face.face2 .content p {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    color: #414141;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #414141;
 }
 
 .container .card .face.face2 .content h5 {
-    margin: -10px 0 10px 0;
-    padding: 0;
-    color: #fff;
-    font-size: 17px;
-    text-align: center;
-    color: #414141;
-    margin-bottom: 20px;
-} 
-
-.container .card .face.face2 .content a{
-    justify-items: center;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
+  margin: -10px 0 10px 0;
+  padding: 0;
+  color: #fff;
+  font-size: 17px;
+  text-align: center;
+  color: #414141;
+  margin-bottom: 20px;
 }
 
-.stick{
-    margin-top: 50px;
+.container .card .face.face2 .content a {
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
 }
 
-.github{
-    color: rgb(88, 88, 88);
+.stick {
+  margin-top: 50px;
 }
 
-.linked{
-    color: rgb(88, 88, 88);
+.github {
+  color: rgb(88, 88, 88);
 }
 
-.google{
-    color: rgb(88, 88, 88);
+.linked {
+  color: rgb(88, 88, 88);
 }
 
-.hackerrank{
-    color: rgb(88, 88, 88);
+.google {
+  color: rgb(88, 88, 88);
 }
 
-.linked:hover{
-    color: #0e76a8;
+.hackerrank {
+  color: rgb(88, 88, 88);
 }
 
-.github:hover{
-    color: black;
+.linked:hover {
+  color: #0e76a8;
 }
 
-.google:hover{
-    color: #e64340;
+.github:hover {
+  color: black;
 }
 
-.hackerrank:hover{
-    color: #4ec967;
+.google:hover {
+  color: #e64340;
 }
 
-.container .card .face.face2 .content h5 a{
-    background-color: transparent;
-    color: black;
-    border: 2px solid black;
-    padding: 10px 25px;
-    border-radius: 20px;
+.hackerrank:hover {
+  color: #4ec967;
 }
 
-.container .card .face.face2 .content h5 a:hover{
-    background-color: black;
-    color: white;
+.container .card .face.face2 .content h5 a {
+  background-color: transparent;
+  color: black;
+  border: 2px solid black;
+  padding: 10px 25px;
+  border-radius: 20px;
+}
+
+.container .card .face.face2 .content h5 a:hover {
+  background-color: black;
+  color: white;
 }
 
 .container a {
-    text-decoration: none;
-    color: #414141;
+  text-decoration: none;
+  color: #414141;
 }
 
-.contact{
-    width: 100%;
-    height: 100%;
-    background-color: #262626;
+.contact {
+  width: 100%;
+  height: 100%;
+  background-color: #262626;
 }
 
-.contact h1{
-    padding-top: 30px;
+.contact h1 {
+  padding-top: 30px;
 }
 
-.contactBox{
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    padding: 40px;
+.contactBox {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  padding: 40px;
 }
 
-.contactBox div{
-    color: black;
+.contactBox div {
+  color: black;
+  padding: 5px 0 5px 10px;
+  background-color: rgb(238, 238, 238);
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin: 0 20px;
+}
+
+.contactBoxTag {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+
+
+/* Resume Download Section */
+
+.resume_div{
+  text-align: center;
+  margin-top: 90px;
+}
+
+.resume{
+  text-decoration: none;
+  background-color: white;
+  color:black;
+  font-weight: bold;
+  padding: 10px;
+  border: solid black 2px;
+}
+
+.resume:hover{
+  background-color: black;
+  color:white;
+}
+
+.resume_icon:hover{
+  color: white;
+}
+
+@media (max-width: 920px) {
+  .contactBox div {
     padding: 5px 0 5px 10px;
-    background-color: rgb(238, 238, 238);
-    box-sizing: border-box;
-    border-radius: 20px;
-    margin: 0 20px;
+    margin: 0 13px;
+  }
 }
 
-.contactBoxTag{
+@media (max-width: 839px) {
+  .contact {
+    height: 100vh;
+  }
+  .contact h1 {
+    padding-top: 80px;
+  }
+  .contactBox {
+    flex-direction: column;
+  }
+  .contactBox div {
+    margin: 13px 13px;
+  }
+}
+
+@media (max-width: 500px) {
+  .about {
+    background-color: #f1f1f1;
+    height: 110vh;
+    width: 100%;
+  }
+
+  .card1 {
     display: flex;
     justify-content: center;
     justify-items: center;
     align-items: center;
+    flex-direction: column;
+  }
+  .card2 {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .text1 {
+    margin-right: 0;
+  }
+  .text1 p {
+    margin-bottom: 10px;
+  }
+  .text2 {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .resume_div{
+    text-align: center;
+    margin-top: 35px;
+  }
+
 }
 
-@media(max-width:920px){
-    .contactBox div{
-        padding: 5px 0 5px 10px;
-        margin: 0 13px;
-    }
+@media (max-width: 600px) {
+  .aboutBox {
+    flex-direction: column;
+    padding-top: 60px;
+  }
+
+  .aboutBox img {
+    height: 220px;
+  }
+
+  .aboutBox div {
+    margin-left: 0;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .resume_div{
+    text-align: center;
+    margin-top: 35px;
+  }
 }
 
-@media(max-width:839px){
-    .contact{
-        height: 100vh;
-    }
-    .contact h1{
-        padding-top: 80px;
-    }
-    .contactBox{
-        flex-direction: column;
-    }
-    .contactBox div{
-        margin: 13px 13px;
-    }
+@media (max-width: 900px) {
+  .skillCenter {
+    width: 60%;
+  }
 }
 
-@media(max-width:500px){
-    .card1{
-        display: flex;
-        justify-content: center;
-        justify-items: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    .card2{
-        display: flex;
-        justify-content: center;
-        justify-items: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    .text1{
-        margin-right: 0;
-    }
-    .text1 p{
-        margin-bottom: 10px;
-    }
-    .text2{
-        margin-left: 0;
-        margin-top: 20px;
-    }
-}
-
-@media (max-width:600px){
-    .aboutBox{
-        flex-direction: column;
-        padding-top: 60px;
-    }
-
-    .aboutBox img{
-        height: 220px;
-    }
-
-    .aboutBox div{
-        margin-left: 0;
-        margin-top: 20px;
-        text-align: center;
-    }
-}
-
-@media (max-width:900px){
-    .skillCenter{
-        width: 60%;
-    }
-}
-
-@media (max-width:550px){
-    .skillCenter{
-        width: 80%;
-    }
+@media (max-width: 550px) {
+  .skillCenter {
+    width: 80%;
+  }
 }

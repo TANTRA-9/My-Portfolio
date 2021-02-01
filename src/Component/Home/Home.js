@@ -4,6 +4,7 @@ import Navbar from '../Navbar/Navbar';
 import img1 from './3.jpg';
 import img2 from './4.png';
 import img3 from './5.jpg';
+import Resume from './Resume/Nishant.pdf';
 import { MdLocationOn } from 'react-icons/md';
 import { FiMail } from 'react-icons/fi';
 import { BiPhoneCall } from 'react-icons/bi';
@@ -11,6 +12,7 @@ import { HiArrowRight } from 'react-icons/hi';
 import { GrLinkedin } from 'react-icons/gr';
 import { FaGithub,FaHackerrank } from 'react-icons/fa';
 import { ImGoogle2 } from 'react-icons/im';
+import { RiDownloadCloudFill } from 'react-icons/ri';
  
 class Home extends Component {
     render() {
@@ -107,6 +109,22 @@ class Home extends Component {
                             </div>
                         </div>
                         <div className={style.skillBox}>
+                            <p>Express.js</p>
+                            <p>60%</p>
+                            <div className={style.skillBar}>
+                                <div
+                                    style={{ width: "60%", height: "5px", backgroundColor: "yellowgreen" }}></div>
+                            </div>
+                        </div>
+                        <div className={style.skillBox}>
+                            <p>MongoDb</p>
+                            <p>50%</p>
+                            <div className={style.skillBar}>
+                                <div
+                                    style={{ width: "50%", height: "5px", backgroundColor: "yellowgreen" }}></div>
+                            </div>
+                        </div>
+                        <div className={style.skillBox}>
                             <p>Html</p>
                             <p>90%</p>
                             <div className={style.skillBar}>
@@ -174,7 +192,7 @@ class Home extends Component {
                 </div>
                 <div className={style.about} id="about">
                     <div className={style.aboutBox}>
-                        <img style={{ borderRadius: "50%" }} src={img3} alt=""
+                        <img style={{ borderRadius: "50%",height:"250px" }} src={img3} alt=""
                         ></img>
                         <div>
                             <h1 style={{ paddingBottom: "5px", letterSpacing: "2px" }}>
@@ -190,6 +208,9 @@ class Home extends Component {
                             <a href="https://www.hackerrank.com/TANTRA9" target="_blank" rel="noopener noreferrer"><FaHackerrank className={style.hackerrank} size="34px"/></a>
                             </h3>
                         </div>
+                    </div>
+                    <div className={style.resume_div}>
+                        <a className={style.resume} href={Resume} download="Resume.pdf">Download Resume <RiDownloadCloudFill className={style.resume_icon} size="20px"/></a>
                     </div>
                 </div>
                 <div className={style.contact} id="contact">

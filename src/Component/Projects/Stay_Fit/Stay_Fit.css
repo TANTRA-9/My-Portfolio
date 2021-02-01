@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+.stay_fit{
+    width: 100%;
+    height: 100%;
+    background-color: #0b0c10;
+}
+
+.back{
+    position: fixed;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 40px;
+    cursor: pointer;
+    color: #66fcf1;
+    z-index: 888;
+}
+
+.back:hover{
+    color: white;
+}
+
+.tagBox{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.tagBox h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 2px solid #66fcf1;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 3px;
+}
+
+.stay_fit h1{
+    padding-top: 30px;
+    text-align: center;
+    color: #66fcf1;
+    letter-spacing: 2px;
+}
+
+.stay_fit h2{
+    text-align: center;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    color: white;
+    padding: 10px;
+}
+
+.stay_fit h3{
+    font-size: 19.7px;
+    margin-top: 30px;
+    margin-left: 20%;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    color: #66fcf1;
+}
+
+.stay_fit p{
+    margin-right: 20%;
+    margin-left: 25%;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 1px;
+    color: #c5c6c7;
+}
+
+.stay_fit p span{
+    text-decoration: underline;
+    font-weight: bold;
+    color: white;
+}
+
+.images{
+    margin: 0 250px;
+}
+
+.links{
+    margin-top: 40px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.links h5{
+    margin-top: 20px;
+}
+
+.download{
+    color: rgb(119, 119, 119);
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.github{
+    color: rgb(119, 119, 119);
+    cursor: pointer;
+}
+
+.github:hover{
+    color: #66fcf1;
+}
+
+.download:hover{
+    color: #66fcf1;
+}
+
+@media (max-width:500px){
+    .stay_fit h3{
+        margin-left: 12%;
+    }
+    .stay_fit p{
+        margin-left: 16%;
+        margin-right: 14%;
+    }
+    .back{
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: 30px;
+    }
+}
+
+@media (max-width:1000px){
+    .images{
+        margin: 0 150px;
+    }
+}
+
+@media (max-width:750px){
+    .images{
+        margin: 0 80px;
+    }
+}
+
+@media (max-width:500px){
+    .images{
+        margin: 0 15px;
+    }
+}
